@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UAS</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Implicit</string>
+    <string name="title_notifications">Profile</string>
+    <string name="message_received">Message Received</string>
+    <string name="enter_your_message_here">Enter Your Message Here</string>
+    <string name="reply">Reply</string>
+    <string name="reply_received">Reply Received</string>
+    <string name="open_website">Follow GithubKu</string>
+    <string name="masukkan_website">Masukkan Link Web</string>
+    <string name="share_this_text">BAGIKAN</string>
+    <string name="_62xxxxxxxxxxxx">+62xxxxxxxxxxxx</string>
+    <string name="loremipsum">LoremIpsum</string>
+</resources>

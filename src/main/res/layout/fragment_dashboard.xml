@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackgroundColor"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_website"
+        android:textColor="@color/PaletTekx"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="50dp"
+        android:backgroundTint="@color/PaletButton">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/text_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.288"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        android:text="INI IMPLICIT"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/sharetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:hint="@string/loremipsum"
+        android:inputType="textShortMessage|textLongMessage"
+        android:textColor="@color/PaletTekx"
+        android:textColorHint="#7A7A7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:textColor="@color/PaletTekx"
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/share_this_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sharetext"
+        tools:ignore="MissingConstraints"
+        android:backgroundTint="@color/PaletButton">
+
+    </Button>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/PaletButton"
+        android:text="SEND"
+        android:textColor="@color/PaletTekx"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.874"
+        tools:ignore="MissingConstraints">
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
